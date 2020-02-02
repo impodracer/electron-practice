@@ -10,6 +10,12 @@ module.exports = merge(
       port: 3000,
       historyApiFallback: true,
     },
+    stats: {
+      assets: false,
+      entrypoints: false,
+      modules: false,
+      children: false,
+    }
   },
   exp[1]
 );
